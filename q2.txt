@@ -1,0 +1,20 @@
+var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+function myFunction(str) {
+    
+    var res = str.toUpperCase();
+    return res;
+}
+for (var i=10;i>0;i=i-3)
+a[i]=myFunction(a[i]);
+
+for (var i=10;i>0;i--)
+console.log(a[i]);
+
+
+ruby cod
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+index = a.length
+ 
+
+a.length.times { index -= 1; puts a[index-=2].upcase}
