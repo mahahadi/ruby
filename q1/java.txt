@@ -1,0 +1,11 @@
+var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+function myFunction(str) {
+    
+    var res = str.toUpperCase();
+    return res;
+}
+for (var i=2;i<a.length;i=i+3)
+a[i]=myFunction(a[i]);
+
+for (var i=0;i<a.length;i++)
+console.log(a[i]);
