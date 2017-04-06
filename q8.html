@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>textBoxes.html</title>
+ <script type = "text/javascript">
+
+
+  function sayHi(){
+  // THIS is WHERE input VARIABLES are set, followed by the OUTPUT
+  //this defines the First Week of Sickness Paid Start Date
+  var BPCName = document.getElementById("BPCName");
+  var OUTBPC = document.getElementById("OUTBPC");
+  var name = BPCName.value;
+  OUTBPC.value = " " +name+ ""
+  //This defines the last week of Sickness Benefits Paid
+    var LWPName = document.getElementById("LWPName");
+  var OUTLWP = document.getElementById("OUTLWP");
+  var name = LWPName.value;
+  OUTLWP.value = " " +name+ ""
+  //This defines Total Weeks of Sickness Benefits Paid
+  var TWSPName = document.getElementById("TWSPName");
+   var OUTTWSP = document.getElementById("OUTTWSP");
+  var name = TWSPName.value;
+  OUTTWSP.value = " " +name+ ""
+  // This Defines the Date the Medical Was received
+  var MEDRName = document.getElementById("MEDRName");
+   var OUTMEDR = document.getElementById("OUTMEDR");
+  var name = MEDRName.value;
+ OUTMEDR.value = " " +name+ ""
+
+
+  } // end sayHi
+ </script>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "textBoxes.css" />
+ </head>
+ <body>
+ <h1>Automatic</h1>
+ <form action = "">
+  <fieldset>
+  <label>Start Date: </label>
+  <input type = "text"
+    id = "BPCName" />
+  <input type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "OUTBPC" />
+  </fieldset>
+ </form> 
+
+  <form action = "">
+  <fieldset>
+  <label>Last Week of Benefits Paid: </label>
+  <input type = "text"
+    id = "LWPName" />
+  <input type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "OUTLWP" />
+  </fieldset>
+
+      <form action = "">
+  <fieldset>
+  <label>Total Weeks of Sickness Benefits Paid: </label>
+  <input type = "text"
+    id = "TWSPName" />
+  <input type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "OUTTWSP" />
+
+          <form action = "">
+  <fieldset>
+  <label>Date Medical Received: </label>
+  <input type = "text"
+    id = "MEDRName" />
+  <input type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "OUTMEDR" />
+            <form action = "">
+
+ 
+
+
+</html>
+
